@@ -62,11 +62,11 @@ setError(' ')
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center">Lista de super</h1>
+      <h1 className="text-center">Lista de tareas</h1>
       <hr/>
       <div className="row">
         <div className="col-8">
-          <h4 className="text-center">contador</h4>
+          <h4 className="text-center">Tareas</h4>
           <ul className="list-group"> 
           {
             tareas.length === 0 ? (
